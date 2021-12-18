@@ -1,0 +1,8 @@
+#ExpenseForm{display:flex;}
+.itemList{list-style: none;}
+.itemList>li{width: 100%; margin-bottom:1px; height: 40px; background-color:darksalmon; display: flex; justify-content:space-around; align-items: center;}
+.itemList>li:hover{background-color:rgb(235, 170, 148);}
+.chartBar{width: 50px; height: 150px; position: relative; background-color: whitesmoke;}
+.chartBarFill{width: 100%; transition:all 500ms ease; background-color: darkslateblue; position: absolute; bottom: 0;}
+.submitBtn{cursor: pointer;}
+.submitBtn:hover{background-color:rgb(18, 65, 104);}
